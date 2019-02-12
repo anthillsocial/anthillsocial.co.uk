@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+	<title>Anthill | Patchbay</title>
+	
+	<!--META INFO-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Tom Keene tom@theanthillsocial.co.uk" />	
+    
+    <!--CSS-->	
+    <style type="text/css" media="all">@import "patchbay.css";</style>
+	<style>
+		body{width:96%;margin:auto;font-family:verdana;padding:10px;}
+		#EXAMPLE{float:left;width:48%;}
+		#EXAMPLE2{float:right;width:48%;}
+	</style>
+	
+	<!--JAVASCRIPT & CSS-->	
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="patchbay.js"></script>
+	<script type="text/javascript" src="jquery.svg.js"></script>
+	<script type="text/javascript" src="jquery.drawinglibrary.js"></script>
+	 
+	<script type="text/javascript">
+		$(document).ready(function() { 
+			
+			// Initilise EXAMPLE patchbay
+			$('#EXAMPLE').patchbay( {
+				onSetPatch: function(){ dosomething(this); }, // Define a callback when a patch has been updated
+				patch: "03-02,07-16,06-10"						  // Default patches
+			});
+			// Initilise EXAMPLE2 patchbay
+			$('#EXAMPLE2').patchbay( {
+				onSetPatch: function(){ dosomething(this); }, // Define a callback when a patch has been updated
+				patch: "03-14,07-16,06-02"						  // Default patches
+			});
+			// Callback
+			function dosomething(vals){
+				ref = vals.ptchID;
+				$(ref+' .settings').html("<strong>patches:</strong> "+vals.str);
+			}
+		});
+	</script>
+	
+  </head>
+  <body>
+
+<h2>Example: patchbay.js</h2>
+	
+<div id="EXAMPLE" class="patchbay">
+	<div class="inputs">
+		<ul>
+			<li><span class="label">Input1</span><span class="patch">01</span></li>
+			<li><span class="label">Input2</span><span class="patch">02</span></li>
+			<li><span class="label">Input3</span><span class="patch">03</span></li>
+			<li><span class="label">Input4</span><span class="patch">04</span></li>
+			<li><span class="label">Input5</span><span class="patch">05</span></li>
+			<li><span class="label">Input6</span><span class="patch">06</span></li>
+			<li><span class="label">Input7</span><span class="patch">07</span></li>
+			<li><span class="label">Input8</span><span class="patch">08</span></li>
+			<li><span class="label">Input9</span><span class="patch">09</span></li>
+		</ul>
+	</div>
+	<div class="patching"> patching </div>
+	<div class="outputs">
+		<ul>
+			<li><span class="patch">06</span><span class="label">Output01</span></li>
+			<li><span class="patch">08</span><span class="label">Output02</span></li>
+			<li><span class="patch">02</span><span class="label">Output03</span></li>
+			<li><span class="patch">04</span><span class="label">Output04</span></li>
+			<li><span class="patch">10</span><span class="label">Output05</span></li>
+			<li><span class="patch">15</span><span class="label">Output06</span></li>
+			<li><span class="patch">05</span><span class="label">Output07</span></li>
+			<li><span class="patch">16</span><span class="label">Output08</span></li>
+			<li><span class="patch">14</span><span class="label">Output09</span></li>
+		</ul>
+	</div>
+</div>
+
+<div id="EXAMPLE2" class="patchbay">
+	<div class="inputs">
+		<ul>
+			<li><span class="label">Audio1</span><span class="patch">03</span></li>
+			<li><span class="label">Audio2</span><span class="patch">07</span></li>
+			<li><span class="label">Audio3</span><span class="patch">04</span></li>
+			<li><span class="label">Audio4</span><span class="patch">06</span></li>
+			<li><span class="label">Audio5</span><span class="patch">05</span></li>
+			<li><span class="label">Audio6</span><span class="patch">10</span></li>
+			<li><span class="label">Audio7</span><span class="patch">09</span></li>
+		</ul>
+	</div>
+	<div class="patching"> patching </div>
+	<div class="outputs">
+		<ul>
+			<li><span class="patch">06</span><span class="label">SpeakerA</span></li>
+			<li><span class="patch">08</span><span class="label">SpeakerB</span></li>
+			<li><span class="patch">02</span><span class="label">SpeakerC</span></li>
+			<li><span class="patch">04</span><span class="label">SpeakerD</span></li>
+			<li><span class="patch">10</span><span class="label">SpeakerE</span></li>
+			<li><span class="patch">15</span><span class="label">SpeakerF</span></li>
+			<li><span class="patch">05</span><span class="label">SpeakerG</span></li>
+			<li><span class="patch">16</span><span class="label">SpeakerH</span></li>
+			<li><span class="patch">14</span><span class="label">SpeakerI</span></li>
+		</ul>
+	</div>
+</div>
+
+
+	
+</body></html>

@@ -1,0 +1,139 @@
+/* your styles go here */
+html .sidebar-content {
+    position:relative;
+    width:100%;
+    background-color: #fff;
+    padding:10px 20px;
+}
+html .sidebar-content p,
+html .sidebar-content h3,
+html .sidebar-content h5
+{
+    color:#757574;
+}
+html .sidebar-content h5{
+    margin:0px;
+}
+#mainmenu p.social a{
+    display:block;
+    float:right;
+    margin-top:8px;
+}
+#mainmenu{
+    border-bottom:1px solid #ccc;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:#e8e8e8;
+}
+.singlewidepage{
+    margin-top:-40px;
+}
+#footer{
+    margin-top:40px;
+    border-top:1px solid #ccc;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:#e8e8e8;
+}
+#mainmenu a{
+    color:#555;
+    font-size:1.1em;
+}
+#mainmenu a:hover,
+#mainmenu li.active a{
+    color:#ff7473;
+    text-decoration: none;
+    font-weight: 900;
+}
+.mainmenu-ul{
+    vertical-align: bottom;
+    margin:0px;
+    padding:0px;
+}
+.mainmenu-ul li{
+    display: inline;
+    margin-right: 1em;
+    padding-right: 1em;
+    border-right: 3px solid #ccc;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.mainmenu-ul li:last-child{
+    border-right: none;
+}
+img.maxwidth,
+.img-responsive{
+    width:100%;
+}
+#mainmenu-heading{
+    padding: 0px;
+    margin:0px;
+    display:block;
+    background: url(/files/site/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+}
+#mainmenu-heading a{
+    padding: 0px;
+    margin:0px;
+    display:block;
+    font-size:0.8em;
+    width:100%;
+    height:100%;
+    min-height: 40px;
+}
+#mainmenu-heading a span{
+    display:none;
+}
+p.social{
+    margin:0px;
+}
+.align-right{
+    text-align: right;
+}
+.content-column{
+    text-align: justify;
+}
+.box-masonry-description{
+    text-align: left;
+}
+h1, h2, h3, h4, h5{
+    text-align: left;
+}
+.content-column-content p {
+  color: #111;
+}
+
+table td{
+  vertical-align: text-top;
+}
+table.table-lined tr{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top: 1px solid #ccc;
+}
+table.table-lined tr td:first-child{
+    font-weight:900;
+    font-size: 120%;
+    padding-right: 20px;
+    width:100px;
+}
+table.table-lined{
+    border-bottom: 1px solid #ccc;
+}
+
+/*.box-masonry .box-masonry-text {
+    max-height: 11em;
+    border-bottom:2em solid #fff;
+    overflow:hidden;
+    text-align: left;
+}*/
+
+.content-column {
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.archive-content{
+    margin-top: -15px;
+}

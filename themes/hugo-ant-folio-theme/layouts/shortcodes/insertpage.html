@@ -1,0 +1,2 @@
+{{ $mypage := index .Params 0 }}
+{{ with .Site.GetPage $mypage }}{{ .Content }}{{ end }}

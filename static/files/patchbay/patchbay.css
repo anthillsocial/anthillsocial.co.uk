@@ -1,0 +1,23 @@
+.patchbay{border:1px solid #ccc;font-size:12px;background:#FFF;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;overflow:hidden;
+	background:#E1E1E1;
+	padding-top:10px;
+}
+.patchbay:hover{cursor:pointer;}
+.patchbay .patch, .patchbay li{height:20px;line-height:20px;overflow:hidden;}
+.patchbay .inputs{width:33%;float:left;text-align:right;}
+.patchbay .patching{width:34%;float:left;text-align:center;position:relative;}
+.patchbay .patching .canvas{height:100%;}
+.patchbay .outputs{	width:33%;float:right;text-align:left;}
+.patchbay .inputs .label{margin-right:14px;display:block;}
+.patchbay .outputs .label{margin-left:14px;display:block;}
+.patchbay .patch{width:13px;font-size:10px;color:#7A7A7A;line-height;display:block;position:absolute;}
+.patchbay .inputs .patch{top:0;right:0;text-align:right;}
+.patchbay .outputs .patch{top:0;left:0;text-align:left;}
+.patchbay ul{margin:0;padding:0;}
+.patchbay li{position:relative;list-style:none;margin:0;padding:0;border-top:1px dotted #ABABAB;overflow:none;}
+.patchbay .settings{clear:both;background:#F1F1F1;padding:3px;}
+
+

@@ -1,0 +1,20 @@
+<div id="mainmenu" class="row">
+    {{ partial "mobile_nav_toggle.html" . }}
+    <div class="col-sm-3">
+        <h1 id="mainmenu-heading"><a href="{{ .Site.BaseURL }}"><span>{{ .Site.Title }}</span></a></h1>
+    </div>
+    <div class="col-sm-7">
+        <ul class="mainmenu-ul">
+            {{ range .Site.Params.navlinks }}
+        {{ if eq .name "Archive" }}
+        </ul>
+        <ul class="mainmenu-ul">
+        {{ end }}
+            <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="col-sm-2 align-right">
+        {{ partial "social_buttons_in_sidebar.html" . }}
+    </div>
+</div>

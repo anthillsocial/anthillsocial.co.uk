@@ -1,0 +1,4 @@
+# Ignore directories
+/public
+*resources/_gen/
+.directory 

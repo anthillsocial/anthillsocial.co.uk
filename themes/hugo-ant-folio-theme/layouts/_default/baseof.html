@@ -1,0 +1,80 @@
+<!DOCTYPE html><!--HOME PAGE TEMPLATE-->
+<html lang="{{ .Site.LanguageCode }}">
+<head>{{ partial "head.html" . }}</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          {{ partial "mainmenu.html" . }}
+
+          <!--HOME PAGE -->
+          {{ if eq .URL "/" }}
+          <div class="row">
+              <div id="sidebar" class="col-xs-12 col-sm-4 col-md-3">
+                  <div class="sidebar-content">
+                      {{ with .Site.GetPage "/events/_index.md" }}<h3>{{.Title }}</h3>{{ .Summary }}{{ end }}
+                      <h4><a href="/events/">More events...<a></h4>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-8 col-md-9 content-column">
+                  {{ partial "archive-term.html" . }}
+              </div>
+          </div>
+          {{ else }}
+
+              <!--SIDEBAR CONTENT -->
+              {{ if or (.Params.sidebarpage) (.Params.sidebartext) (eq .URL "/project/writing/") }}
+              <div class="row">
+                  <div id="sidebar" class="col-xs-12 col-sm-5 col-md-4">
+                      <div class="sidebar-content">
+                          {{ if eq .URL "/project/writing/" }}
+                            {{ with .Site.GetPage "/about/publications.md" }}{{ .Content }}{{ end }}
+                          {{ end }}
+                          {{ if .Params.sidebarpage }}
+                            {{ with .Site.GetPage .Params.sidebarpage }}{{ .Content }}{{ end }}
+                          {{ end }}
+                          {{ if .Params.sidebartext }}
+                             {{.Params.sidebartext | safeHTML }}
+                          {{ end }}
+                      </div>
+                  </div>
+                  <!--SIDEBAR WITH PROJECT LIST -->
+                  {{ if eq .URL "/project/writing/" }}
+                  <div class="col-xs-12 col-sm-7 col-md-8 content-column">
+                           {{ block "main" . }}{{ end }}
+                  </div>
+                  <!--SIDEBAR WITH CONTENT PAGE -->
+                  {{ else }}
+                  <div class="col-xs-12 col-sm-7 col-md-8">
+                      <div class="content-column white-background">
+                              {{ block "main" . }}{{ end }}
+                      </div>
+                  </div>
+                  {{ end }}
+              </div>
+
+              <!--NO SIDEBAR CONTENT -->
+              {{ else }}
+              <div class="row">
+                  {{ if or (eq .URL "/project/archive/") (eq .URL "/project/fragment/") }}
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                      <div class="content-column">
+                      {{ block "main" . }}{{ end }}
+                      </div>
+                  </div>
+                  {{ else }}
+                  <div class="col-xs-12 col-sm-12 col-md-9">
+                      <div class="content-column white-background">
+                      {{ block "main" . }}{{ end }}
+                      </div>
+                  </div>
+                  {{ end }}
+              </div>
+              {{ end }}
+        {{ end }}
+
+      </div>
+  </div>
+  <div id="footer">{{ partial "footer.html" . }}</div>
+  {{ partial "scripts.html" . }}
+</body>
+</html>

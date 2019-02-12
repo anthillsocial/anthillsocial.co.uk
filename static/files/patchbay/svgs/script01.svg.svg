@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="6cm" height="5cm" viewBox="0 0 600 500"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <desc>On click event for a circle</desc>
+  <!-- ECMAScript to change the radius with each click -->
+  <script type="text/ecmascript"> <![CDATA[
+    function circle_click(evt) {
+      var circle = evt.target;
+ 	  top.alert("blue"+channel);
+		
+      var currentRadius = circle.getAttribute("r");
+      circle.setAttribute("r", currentRadius*2);
+    }
+  ]]> </script>
+
+  <!-- Act on each click event -->
+  <circle onclick="circle_click(evt)" cx="300" cy="225" r="10" fill="red" id=""/>
+
+  <text x="300" y="480" font-family="Verdana" font-size="35" text-anchor="middle">
+    1
+  </text>
+
+</svg>
