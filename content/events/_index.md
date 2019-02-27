@@ -5,13 +5,30 @@ sidebarpage = ""
 sidebartext = '<img src="/files/site/yellow.jpg" class="maxwidth" style="margin-top:10px;"/>'
 +++
 
-##### 2015-now: Practice based PhD
-Currently researching an artist and activist led PhD project that investigates the role of governmental databases within urban regeneration schemes.            
+{{% divstyle %}}
+##### Current: Practice based PhD
+I am researching an artist and activist led PhD that investigates the role of government databases within urban regeneration schemes.            
 [\[see Database (e)State\]](/archive/databaseestate/)
+{{% /divstyle %}}      
+
+##### 02 March 2019 (1pm-2:30pm) - Lambeth Estates Against Demolition
+I have been invited to speak, as a representative of Cressingham Gardens Estate, at this chaired discussion. I will be joining residents from Central Hill and Westbury estates. The event is a fringe meeting to the Labour London Regional Conference and will be held at The West Indian Cultural Centre, N8ODD.       
+<a href="http://resources.theanthillsocial.co.uk/A5FlyerMar2nd2019.pdf">Download Flyer</a>.
+
+##### 27 Feb 2016 - Inspire To Resist <!--Include in publications?-->
+<a href="http://concretesoldiers.uk/inspire2resist.html">Concret Soldiers</a> have released a handbook for fighting urban regeneration titled "INSPIRE 2 RESIST" (<a href="/files/InspireResist.pdf">download</a>). They kindly used some content from my "<a href="http://db-estate.co.uk/08.RegenCheatSheet/00.CheatSheet.html">Regen Cheat Sheet</a>" which is great to see distributed more widely.
 
 ##### 01 Nov 2018 – 02 Nov 2018: Social Art Summit, Shefield
 Presenting [Database e(State)](/archive/databaseestate/) at this two day event. Artists, activists, community groups, curators, students, academics, and funders share practice, showcase work, and explore what it means to be making art through social engagement right now.        
 [\[See social Art Summit\]](https://www.sitegallery.org/event/social-art-summit/)
+
+<!--
+London Data justice workshop
+!!!Berlin with ASH!!
+Peoples audit (event in waterloo with Cailan)
+-->
+
+<!--more-->
 
 ##### 21-22 May 2018: Workshop at 'Data Justice Conference' in Cardiff.
 Running a workshop 22 May 2018: "How to save a home: Artist/Activist/Research of local authority housing databases and their role in urban regeneration".
@@ -31,8 +48,6 @@ I was invited to be part of this panel consisting of artists and activists who a
 I was invited to contribute [Drill box](http://db-estate.co.uk/03.DrillTentPaperHouses/02.SearchAndDrill.html) to this exhibition questioning the privatisation of publicly owned land and buildings in London and the UK.    
 [\[More info...\]](https://www.facebook.com/events/1382727221797013/)
 
-
-<!--more-->
 
 ##### 27th July 2014 Marine Festival Leigh on Sea.
 Running still at this festival. Delightful methods for DIY essential oil stilling from local flora.        

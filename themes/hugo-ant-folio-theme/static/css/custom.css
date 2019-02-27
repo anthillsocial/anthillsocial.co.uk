@@ -137,3 +137,17 @@ table.table-lined{
 .archive-content{
     margin-top: -15px;
 }
+
+.copyright p.credit {
+    padding: 0em 2em;
+}
+
+.pinned{
+    background:#ededed;
+    padding:10px;
+    margin-bottom:1em;
+    margin-top:-1em;
+}
+.pinned p{
+    margin:0px;
+}
