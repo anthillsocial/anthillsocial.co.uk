@@ -5,6 +5,15 @@ sidebarpage = ""
 sidebartext = '<img src="/files/site/yellow.jpg" class="maxwidth" style="margin-top:10px;"/>'
 +++
 
+<!--
+##### 21st - 29th July 2017. Housing justice workshop with concrete action     
+
+!!!Berlin with ASH!!
+Peoples audit (event in waterloo with Cailan)
+
+Further field :  2012 we held The CyPosium - a one day (12 hours) online symposium
+-->
+
 {{% divstyle %}}
 ##### Current: Practice based PhD
 I am researching an artist and activist led PhD that investigates the role of government databases within urban regeneration schemes.            
@@ -15,18 +24,12 @@ I am researching an artist and activist led PhD that investigates the role of go
 I have been invited to speak, as a representative of Cressingham Gardens Estate, at this chaired discussion. I will be joining residents from Central Hill and Westbury estates. The event is a fringe meeting to the Labour London Regional Conference and will be held at The West Indian Cultural Centre, N8ODD.       
 <a href="http://resources.theanthillsocial.co.uk/A5FlyerMar2nd2019.pdf">Download Flyer</a>.
 
-##### 27 Feb 2016 - Inspire To Resist <!--Include in publications?-->
+##### 27 Feb 2018 - Inspire To Resist <!--Include in publications?-->
 <a href="http://concretesoldiers.uk/inspire2resist.html">Concret Soldiers</a> have released a handbook for fighting urban regeneration titled "INSPIRE 2 RESIST" (<a href="/files/InspireResist.pdf">download</a>). They kindly used some content from my "<a href="http://db-estate.co.uk/08.RegenCheatSheet/00.CheatSheet.html">Regen Cheat Sheet</a>" which is great to see distributed more widely.
 
 ##### 01 Nov 2018 – 02 Nov 2018: Social Art Summit, Shefield
 Presenting [Database e(State)](/archive/databaseestate/) at this two day event. Artists, activists, community groups, curators, students, academics, and funders share practice, showcase work, and explore what it means to be making art through social engagement right now.        
 [\[See social Art Summit\]](https://www.sitegallery.org/event/social-art-summit/)
-
-<!--
-London Data justice workshop
-!!!Berlin with ASH!!
-Peoples audit (event in waterloo with Cailan)
--->
 
 <!--more-->
 
@@ -34,6 +37,10 @@ Peoples audit (event in waterloo with Cailan)
 Running a workshop 22 May 2018: "How to save a home: Artist/Activist/Research of local authority housing databases and their role in urban regeneration".
 Data Justice is an international conference exploring research on, and practices of, social justice in an age of datafication. Host: Data Justice Lab, Cardiff University, Cardiff, UK.               
 [\[See www.datajusticelab.org\]](https://datajusticelab.org/data-justice-conference)
+
+##### 19th May 2018: Goldsmiths. Winner of the 'Warden's Annual Public Engagement Award'         
+2019 winner in Postgraduate Researcher category for my project *Database Estate*, an intensely collaborative, cross-disciplinary campaign to save Cressingham Gardens Estate in South West London.                   
+[\[See www.gold.ac.uk\]](https://www.gold.ac.uk/news/public-engagement-awards-2018/?utm_campaign=Staff+News+10+05+2018&utm_source=emailCampaign&utm_content=&utm_medium=email)
 
 ##### 25th Oct 2018: Regeneration and its disconents, London South Bank University
 Part of a panel discussion titled "Post Grenfell housing struggles" along with Izzy Koksal (Housing Action Southwark and Lambeth), Beverley Robinson (Aylesbury Leaseholders Action Group), Katie Beswick (Lecturer in Drama University of Exeter), Owen Hatherley (writer and journalist).  Organised by  Ana Vilenica of London South Bank University.             
@@ -47,7 +54,6 @@ I was invited to be part of this panel consisting of artists and activists who a
 ##### 21st - 29th July 2017. Exhibition "Betweeen Rock and a hard place" at the V3 Gallery in Waterloo, London.
 I was invited to contribute [Drill box](http://db-estate.co.uk/03.DrillTentPaperHouses/02.SearchAndDrill.html) to this exhibition questioning the privatisation of publicly owned land and buildings in London and the UK.    
 [\[More info...\]](https://www.facebook.com/events/1382727221797013/)
-
 
 ##### 27th July 2014 Marine Festival Leigh on Sea.
 Running still at this festival. Delightful methods for DIY essential oil stilling from local flora.        
